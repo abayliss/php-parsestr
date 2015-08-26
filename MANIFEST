@@ -1,0 +1,7 @@
+MANIFEST
+README
+LICENSE
+Changes
+Makefile.PL
+lib/PHP/ParseStr.pm
+t/phpparsestr.t
