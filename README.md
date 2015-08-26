@@ -2,6 +2,8 @@
 
 PHP::ParseStr - Implements PHP's parse\_str function
 
+[![Build Status](https://travis-ci.org/abayliss/php-parsestr.svg?branch=master)](https://travis-ci.org/abayliss/php-parsestr)
+
 # SYNOPSIS
 
     use PHP::ParseStr qw(php_parse_str);

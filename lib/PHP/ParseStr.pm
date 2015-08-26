@@ -16,6 +16,8 @@ use URI;
 
 PHP::ParseStr - Implements PHP's parse_str function
 
+=for markdown [![Build Status](https://travis-ci.org/abayliss/php-parsestr.svg?branch=master)](https://travis-ci.org/abayliss/php-parsestr)
+
 =head1 SYNOPSIS
 
   use PHP::ParseStr qw(php_parse_str);
