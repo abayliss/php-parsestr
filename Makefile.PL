@@ -8,6 +8,12 @@ WriteMakefile(
     VERSION_FROM  => 'lib/PHP/ParseStr.pm',
     AUTHOR        => 'Andrew Bayliss (abayliss@gmail.com)',
     ABSTRACT      => 'Implements PHP\'s parse_str function',
+    LICENSE       => 'perl',
+    META_MERGE    => {
+        resources => {
+            repository => 'https://github.com/abayliss/php-parsestr'
+        }
+    },
     PREREQ_PM     => {
         'URI' => 0,
         'Exporter::Easy' => 0,
@@ -15,5 +21,6 @@ WriteMakefile(
     TEST_REQUIRES => {
         'Test::Simple' => 0,
         'Test::Deep' => 0,
-    }
+    },
+    MIN_PERL_VERSION => '5.010'
 );

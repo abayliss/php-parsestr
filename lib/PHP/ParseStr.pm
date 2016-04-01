@@ -4,7 +4,7 @@ use 5.010;
 use strict;
 use warnings;
 
-our $VERSION = "0.0.1";
+our $VERSION = "0.0.2";
 
 use Exporter::Easy (
     OK => [qw( php_parse_str )]
